@@ -1,0 +1,35 @@
+{
+	"nodes":[
+		{"id":"16fbfdfab0cac7eb","type":"file","file":"Images/Pasted image 20240509120358.png","x":-680,"y":100,"width":197,"height":200,"color":"5"},
+		{"id":"4adefa864cef0a30","type":"file","file":"Images/Pasted image 20240509121602.png","x":-886,"y":-40,"width":137,"height":137,"color":"6"},
+		{"id":"ea0f03a48855e6f4","type":"text","text":"- ==**4624**:== An account was successfully logged on.\n- ==**4625**:== An account failed to log on.\n- ==**4634**:== An account was logged off.\n- ==**4648**:== A logon was attempted using explicit credentials.\n- ==**4657**:== A registry value was modified.\n- ==**4663**:== An attempt was made to access an object.\n- ==**4672**:== Special privileges assigned to new logon.\n- ==**4688**:== A new process has been created.\n- ==**4698**:== A scheduled task was created.\n- ==**4720**:== A user account was created.\n- ==**4728**:== A member was added to a security-enabled global group.\n- ==**4732**:== A member was added to a security-enabled local group.\n- ==**4740**:== A user account was locked out.\n- ==**4776**:== The domain controller attempted to validate the credentials for an account.\n- ==**4781**:== The name of an account was changed.\n- ==**4798**:== A user's local group membership was enumerated.\n- ==**4799**:== A security-enabled local group membership was enumerated.\n- ==**4800**:== The workstation was locked.\n- ==**4801**:== The workstation was unlocked.\n- ==**1102**:== The audit log was cleared.","x":-430,"y":-647,"width":1000,"height":600,"color":"5"},
+		{"id":"b671b8bf8cd960c2","type":"file","file":"Images/Pasted image 20240509120119.png","x":-1344,"y":-900,"width":242,"height":153,"color":"3"},
+		{"id":"ede9283d8f243708","type":"text","text":"Attack Telemetry","x":-755,"y":-500,"width":250,"height":60,"color":"5"},
+		{"id":"1b591180ce537631","type":"file","file":"Images/Pasted image 20240509121602.png","x":-2200,"y":118,"width":137,"height":137,"color":"6"},
+		{"id":"7fc7424b0cf2d7de","type":"file","file":"Images/Pasted image 20240509122131.png","x":-2102,"y":-332,"width":185,"height":185,"color":"1"},
+		{"id":"06c9d47b771e15b6","type":"file","file":"Images/Pasted image 20240509121315.png","x":-2034,"y":261,"width":233,"height":155,"color":"1"},
+		{"id":"d5c93a5d9be61328","type":"file","file":"Images/Pasted image 20240509123230.png","x":-1037,"y":-1240,"width":151,"height":151,"color":"3"},
+		{"id":"486f07bf7e778e43","type":"text","text":"SECURITY ALERTS","x":-1086,"y":-1300,"width":250,"height":60,"color":"3"},
+		{"id":"4d6cc1887e1fc27a","type":"text","text":"Cloud Server","x":-1344,"y":-960,"width":242,"height":60,"color":"3"},
+		{"id":"c055c82bb44fffc7","type":"text","text":"John's\nNetwork","x":-886,"y":-106,"width":137,"height":59,"color":"6"},
+		{"id":"3b9f84957a89874d","type":"text","text":"Remote Network","x":-2200,"y":50,"width":137,"height":59,"color":"6"},
+		{"id":"114a6c218c49aaa2","type":"text","text":"Kali - Attacker","x":-2034,"y":211,"width":233,"height":50,"color":"1"},
+		{"id":"c7bbf912b05899b6","type":"text","text":"Malicious Payload\n- Instructions to C2\n- Backdoor\n- DoS - HPing3\n- Create New User using Powershell or CMD","x":-1414,"y":560,"width":334,"height":223,"color":"1"},
+		{"id":"58b353315c04a6ff","type":"text","text":"C2 Server - Optional","x":-2102,"y":-400,"width":185,"height":68,"color":"1"},
+		{"id":"6c7eadf256161605","type":"text","text":"SOC","x":-1468,"y":-1119,"width":109,"height":60,"color":"3"},
+		{"id":"2969a706a8d70bf4","type":"text","text":"Windows\nVictim","x":-483,"y":164,"width":197,"height":72,"color":"5"},
+		{"id":"0d16030977abee5a","type":"text","text":"🦠 MALWARE 🦠 ","x":-1346,"y":500,"width":199,"height":60,"color":"1"},
+		{"id":"6d3aee5436d567af","type":"text","text":"HTTP\nDNS","x":-1900,"y":-332,"width":280,"height":93},
+		{"id":"0ba37f469d32886f","type":"text","text":"- Check Discord Integration w/ Splunk\n- TEAMS\n- Pick a time of day to attack\n- SPL, Dashboards, Reports\n- Need workshops on SPL\n- Phishing Emails\n\nHow will this look in Canvas:\n- Start in Phase 5\n- Report\n\t- Templates that include visuals and diagrams\n\t- Guidance on artifacts\n- Quizzes within Milestones that represent real-time attacks\n\nPHASE 4:\n- SPL\n- Windows events\n- \n\nCreate a back story\n","x":-464,"y":346,"width":644,"height":674},
+		{"id":"fff00943df7e60aa","type":"text","text":"John:\nWindows Victim\n- Web Server\n- Open ports\n\nBrian:\n- Scripts that trigger common events - PS, CMD\n- Mimikatz\n- WinPeas\n\nJerry:\n- Splunk \n- Discord\n\nCarlos:\n- C2 - Server (cloud)\n- Metasploit\n- Splunk Container\n- C2 msvenom\n\n","x":319,"y":323,"width":381,"height":657},
+		{"id":"e0110ded60584fea","type":"text","text":"AWS","x":-1005,"y":-879,"width":250,"height":56},
+		{"id":"e2c823b1a42a9d57","type":"text","text":"Splunk Forwarder","x":-483,"y":240,"width":250,"height":60,"color":"3"}
+	],
+	"edges":[
+		{"id":"9bd419c39ec3005c","fromNode":"16fbfdfab0cac7eb","fromSide":"top","toNode":"b671b8bf8cd960c2","toSide":"right"},
+		{"id":"caddeebef09fba6d","fromNode":"06c9d47b771e15b6","fromSide":"bottom","toNode":"16fbfdfab0cac7eb","toSide":"bottom"},
+		{"id":"433b736f13a88c6a","fromNode":"16fbfdfab0cac7eb","fromSide":"left","toNode":"7fc7424b0cf2d7de","toSide":"bottom"},
+		{"id":"7653de75954ad468","fromNode":"ede9283d8f243708","fromSide":"right","toNode":"ea0f03a48855e6f4","toSide":"left"},
+		{"id":"58ddf198b97ed18d","fromNode":"b671b8bf8cd960c2","fromSide":"right","toNode":"d5c93a5d9be61328","toSide":"left"}
+	]
+}
