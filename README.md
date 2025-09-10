@@ -9,7 +9,7 @@
 
 ## System Requirements
 
-- Local machine with Hypervisor or your choosing
+- Local machine with Hypervisor of your choosing
 - Cloud accounts (This one uses AWS and/or Digital Ocean)
 - Windows, Ubuntu, Kali (You can swap these machines out if you wish or host everything locally)
 - All references to pem files and username/passwords should be configured to your environment. (They are deprecated and dont work anyways) 
