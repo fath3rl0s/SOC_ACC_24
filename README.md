@@ -7,7 +7,7 @@
 - All settings and images should import just fine
 - You can ignore the trust message - you do not need to install or turn on any Community Plugins to view
 
-# System Requirements
+## System Requirements
 
 - Local machine with Hypervisor or your choosing
 - Cloud accounts (This one uses AWS and/or Digital Ocean)
